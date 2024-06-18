@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 25px;
+            height: 500px;
+            width: 100%;
+
+        }
+
+        .box {
+            border: 1px solid rgb(70, 69, 69);
+
+        }
+
+        .box .bgimage {
+            background-color: rgb(66, 66, 66);
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 50px 0px;
+        }
+
+        .box p {
+            width: 90%;
+            margin: 20px auto;
+            font-size: 20px;
+        }
+
+        .button {
+            display: flex;
+            margin: 0px 20px;
+            margin-bottom: 20px;
+        }
+
+        .button div {
+            border: 1px solid black;
+            padding: 5px;
+            width: 20%;
+            text-align: center;
+
+        }
+    </style>
+    <link rel="stylesheet" href="media_grid.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="box" id="box1">
+            <div class="bgimage">Thumbnail</div>
+            <p>This is a wider card with supporting test below as a natural lead-in ta additional cantent. This content
+                is a little bit longer</p>
+            <div class="button">
+                <div class="btn1">View</div>
+                <div class="btn2">Exit</div>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="bgimage">Thumbnail</div>
+            <p>This is a wider card with supporting test below as a natural lead-in ta additional cantent. This content
+                is a little bit longer</p>
+            <div class="button">
+                <div class="btn1">View</div>
+                <div class="btn2">Exit</div>
+            </div>
+        </div>
+        <div class="box" id="box3">
+            <div class="bgimage">Thumbnail</div>
+            <p>This is a wider card with supporting test below as a natural lead-in ta additional cantent. This content
+                is a little bit longer</p>
+            <div class="button">
+                <div class="btn1">View</div>
+                <div class="btn2">Exit</div>
+            </div>
+        </div>
+        <div class="box" id="box4">
+            <div class="bgimage">Thumbnail</div>
+            <p>This is a wider card with supporting test below as a natural lead-in ta additional cantent. This content
+                is a little bit longer</p>
+            <div class="button">
+                <div class="btn1">View</div>
+                <div class="btn2">Exit</div>
+            </div>
+        </div>
+        <div class="box" id="box5">
+            <div class="bgimage">Thumbnail</div>
+            <p>This is a wider card with supporting test below as a natural lead-in ta additional cantent. This content
+                is a little bit longer</p>
+            <div class="button">
+                <div class="btn1">View</div>
+                <div class="btn2">Exit</div>
+            </div>
+        </div>
+        <div class="box" id="box6">
+            <div class="bgimage">Thumbnail</div>
+            <p>This is a wider card with supporting test below as a natural lead-in ta additional cantent. This content
+                is a little bit longer</p>
+            <div class="button">
+                <div class="btn1">View</div>
+                <div class="btn2">Exit</div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
